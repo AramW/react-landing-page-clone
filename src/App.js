@@ -1,25 +1,15 @@
 import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <header>my header</header>
+      <main>my main</main>
+      <footer>footer</footer>
+    </>
   );
 }
 
 export default App;
+
+//22:35 YV.Copying a Landing Page with CSS-in-JS
